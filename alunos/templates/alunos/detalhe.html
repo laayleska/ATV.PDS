@@ -1,0 +1,30 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <title>DETALHE</title>
+</head>
+<body>
+{% block title %}
+Detalhes do Aluno
+{% endblock %}
+
+{% block content %}
+
+<h2>Perfil do Aluno</h2>
+
+<p><strong>Nome:</strong> João Silva</p>
+
+<p><strong>Matrícula:</strong> 2025001</p>
+
+<p><strong>Curso:</strong> Informática</p>
+
+{% endblock %}
+</body>
+</html>
